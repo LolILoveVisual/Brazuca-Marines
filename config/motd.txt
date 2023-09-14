@@ -1,4 +1,16 @@
-<h1>Welcome to the TGMC codebase!</h1>
-
-<i>Don't forget to set your own MOTD.</i>
-<br><br>
+<h1 style="text-align: center;">
+	<img src="https://media.discordapp.net/attachments/996939255198793805/1150803008091848880/welcome.png" alt="Bem vindo ao B.R.A.Z.U.C.A!" title="Bem vindo ao B.R.A.Z.U.C.A">
+</h1>
+<table style="margin: 0 auto;">
+	<tr>
+		<td width="25%" style="text-align: center;"><a href="https://tgstation13.org/wiki/TGMC:TGMC"><img src="https://cdn.discordapp.com/attachments/1069128960044175380/1070704535678488648/wiki.png" alt="Wiki" title="Visite nossa wiki"></a></td>
+		<td width="25%" style="text-align: center;"><a href="https://discord.gg/CSYsBsGhdz"><img src="https://cdn.discordapp.com/attachments/1069128960044175380/1070704534889959474/discord.png" alt="Discord" title="Discord"></a></td>
+		<td width="25%" style="text-align: center;"><a href="https://github.com/LolILoveVisual/Brazuca-Marines"><img src="https://cdn.discordapp.com/attachments/1069128960044175380/1070704535439421440/github.png" alt="Código Fonte" title="Código Fonte"></a></td>
+	</tr>
+</table>
+<h2>Welcome!</h2>
+<div>
+	<strong>Você é um recruta?</strong> <a href="https://tgstation13.org/wiki/TGMC:Marine_Quickstart_Guide">Veja o guia de iniciantes!</a>
+	<br><strong>Precisa de uma ajuda "Divina"? </strong> aperte<strong>F1</strong> ou use o comando de <a href="byond://winset?command=adminhelp">adminhelp</a>.
+</div>
+<br><strong>MATE E DILACERE ATÉ QUE ESTEJA TERMINADO!</strong>
