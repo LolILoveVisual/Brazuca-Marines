@@ -26,7 +26,7 @@
 	var/marines_evac = CRASH_EVAC_NONE
 
 	// Shuttle details
-	var/shuttle_id = SHUTTLE_CANTERBURY
+	var/shuttle_id = SHUTTLE_BIGBURY
 	var/obj/docking_port/mobile/crashmode/shuttle
 
 	// Round start info
