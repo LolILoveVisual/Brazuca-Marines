@@ -1,6 +1,22 @@
 /obj/structure/sign/brazuca
 	icon = 'modular_brazuca/icons/obj/decals.dmi'
 
+/obj/structure/sign/brazuca/Initialize(mapload)
+	..()
+	. = ..()
+	icon = 'modular_brazuca/icons/obj/decals.dmi'
+	if(!directional) //if not directional do not initialize to a x or y offset
+		return
+	switch(dir)
+		if(NORTH)
+			pixel_y = 32
+		if(SOUTH)
+			pixel_y = -32
+		if(EAST)
+			pixel_x = 30
+		if(WEST)
+			pixel_x = -30
+
 /obj/structure/sign/brazuca/republica
 	name = "\improper Republica Federativa do Brasil"
 	icon_state = "prop1"
@@ -20,3 +36,7 @@
 	icon_state = "prop1"
 	icon = 'modular_brazuca/icons/obj/decals96.dmi'
 	layer = TURF_LAYER
+
+/obj/structure/sign/brazuca/x96/Initialize(mapload)
+	..()
+	icon = 'modular_brazuca/icons/obj/decals96.dmi'
