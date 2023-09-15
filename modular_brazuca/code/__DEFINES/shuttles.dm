@@ -1,0 +1,1 @@
+#define SHUTTLE_AMAZONIA "tgs_amazonia"
