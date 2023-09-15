@@ -1900,7 +1900,6 @@
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
 #include "modular_brazuca\emotes_brazuca.dm"
-#include "modular_brazuca\code\__DEFINES\shuttles.dm"
 #include "modular_brazuca\code\datums\gamemodes\crash.dm"
 #include "modular_brazuca\code\datums\jobs\access.dm"
 #include "modular_brazuca\code\datums\jobs\job\marines.dm"
