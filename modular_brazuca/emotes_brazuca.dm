@@ -15,3 +15,27 @@
 	key_third_person = "papa"
 	message = "bota na conta do papa"
 	sound = 'modular_brazuca/sounds/papa.ogg'
+
+/datum/emote/living/carbon/human/flank
+	key = "flank"
+	key_third_person = "flankear"
+	message = "FLANKEEM ELES!"
+	sound = 'modular_brazuca/sounds/flank.wav'
+
+/datum/emote/living/carbon/human/fogoaliado
+	key = "fogoaliado"
+	key_third_person = "fogoaliado"
+	message = "FOGO ALIADO, FOGO ALIADO!"
+	sound = 'modular_brazuca/sounds/friendly.wav'
+
+/datum/emote/living/carbon/human/fogoaliado
+	key = "fogoaliado"
+	key_third_person = "fogoaliado"
+	message = "FOGO ALIADO, FOGO ALIADO!"
+	sound = 'modular_brazuca/sounds/friendly.wav'
+
+/datum/emote/living/carbon/human/xingar
+	key = "xingar"
+	key_third_person = "fodida"
+	message = "Essa missão tá mais fudida do que eu imaginava!"
+	sound = 'modular_brazuca/sounds/fubar.wav'
