@@ -1,5 +1,6 @@
 /obj/structure/sign/brazuca
 	icon = 'modular_brazuca/icons/obj/decals.dmi'
+	directional = FALSE
 
 /obj/structure/sign/brazuca/Initialize(mapload)
 	..()
