@@ -362,3 +362,29 @@ You are also in charge of communicating with command and letting them know about
 		if(new_human.assigned_squad.squad_leader)
 			new_human.assigned_squad.demote_leader()
 		new_human.assigned_squad.promote_leader(new_human)
+
+
+/datum/job/terragov/squad/vatgrown
+	title = SQUAD_MARINE
+	paygrade = "VM"
+	comm_title = "Mar"
+	access = list(ACCESS_MARINE_PREP)
+	minimal_access = list(ACCESS_MARINE_PREP, ACCESS_MARINE_DROPSHIP)
+	display_order = JOB_DISPLAY_ORDER_SQUAD_MARINE
+	outfit = /datum/outfit/job/marine/vatgrown
+	total_positions = 0
+	job_flags = JOB_FLAG_ADDTOMANIFEST|JOB_FLAG_PROVIDES_SQUAD_HUD|JOB_FLAG_CAN_SEE_ORDERS
+	jobworth = list(
+		/datum/job/xenomorph = LARVA_POINTS_REGULAR,
+		/datum/job/terragov/silicon/synthetic = SYNTH_POINTS_REGULAR,
+		/datum/job/terragov/command/mech_pilot = MECH_POINTS_REGULAR,
+	)
+	minimap_icon = "private"
+
+/datum/job/terragov/squad/vatgrown/return_spawn_type(datum/preferences/prefs)
+	return /mob/living/carbon/human/species/vatgrown
+
+/datum/outfit/job/marine/vatgrown
+	name = SQUAD_VATGROWN
+	jobtype = /datum/job/terragov/squad/vatgrown
+	id = /obj/item/card/id/dogtag
