@@ -8,4 +8,4 @@
 
 /turf/closed/wall/indestructible/splashscreen/New()
 	..()
-	icon_state = "title_painting[rand(0,3)]"
+	icon_state = "title_painting[rand(0,7)]"
