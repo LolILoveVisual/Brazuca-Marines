@@ -3,19 +3,7 @@
 
 /obj/structure/sign/brazuca/Initialize(mapload)
 	..()
-	. = ..()
 	icon = 'modular_brazuca/icons/obj/decals.dmi'
-	if(!directional) //if not directional do not initialize to a x or y offset
-		return
-	switch(dir)
-		if(NORTH)
-			pixel_y = 32
-		if(SOUTH)
-			pixel_y = -32
-		if(EAST)
-			pixel_x = 30
-		if(WEST)
-			pixel_x = -30
 
 /obj/structure/sign/brazuca/republica
 	name = "\improper Republica Federativa do Brasil"
