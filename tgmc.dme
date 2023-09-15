@@ -1902,4 +1902,5 @@
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
 #include "modular_brazuca\emotes_brazuca.dm"
+#include "modular_brazuca\code\game\turfs\walls\wall_types.dm"
 // END_INCLUDE
