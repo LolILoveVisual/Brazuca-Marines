@@ -28,14 +28,21 @@
 	message = "FOGO ALIADO, FOGO ALIADO!"
 	sound = 'modular_brazuca/sounds/friendly.wav'
 
-/datum/emote/living/carbon/human/fogoaliado
-	key = "fogoaliado"
-	key_third_person = "fogoaliado"
-	message = "FOGO ALIADO, FOGO ALIADO!"
-	sound = 'modular_brazuca/sounds/friendly.wav'
 
 /datum/emote/living/carbon/human/xingar
 	key = "xingar"
-	key_third_person = "fodida"
+	key_third_person = "xingamento"
 	message = "Essa missão tá mais fudida do que eu imaginava!"
 	sound = 'modular_brazuca/sounds/fubar.wav'
+
+/datum/emote/living/carbon/human/clear
+	key = "limpem"
+	key_third_person = "limpar"
+	message = "LIMPEM ESSA ÁREA!"
+	sound = 'modular_brazuca/sounds/clear.wav'
+
+/datum/emote/living/carbon/human/sniper
+	key = "sniper"
+	key_third_person = "snipar"
+	message = "Parece que aquela aula de franco atirador valeu a pena."
+	sound = 'modular_brazuca/sounds/sniper.wav'
