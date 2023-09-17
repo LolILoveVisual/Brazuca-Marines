@@ -1901,6 +1901,7 @@
 #include "interface\skin.dmf"
 #include "modular_brazuca\emotes_brazuca.dm"
 #include "modular_brazuca\code\datums\gamemodes\crash.dm"
+#include "modular_brazuca\code\datums\gamemodes\nuclear_war.dm"
 #include "modular_brazuca\code\datums\jobs\access.dm"
 #include "modular_brazuca\code\datums\jobs\job\marines.dm"
 #include "modular_brazuca\code\game\clothing\clothing.dm"
