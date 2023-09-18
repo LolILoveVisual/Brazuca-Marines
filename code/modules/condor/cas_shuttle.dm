@@ -10,9 +10,9 @@
 	height = 12
 
 	callTime = 0
-	ignitionTime = 10 SECONDS
+	ignitionTime = 5 SECONDS
 	rechargeTime = 0
-	prearrivalTime = 10 SECONDS
+	prearrivalTime = 5 SECONDS
 
 	///What state our plane is in, i.e can we launch/do we have to deploy stairs etc
 	var/state = PLANE_STATE_DEACTIVATED
@@ -54,7 +54,7 @@
 
 /obj/docking_port/mobile/marine_dropship/casplane/process()
 	#ifndef TESTING
-	fuel_left--
+	fuel_left -= 0.1;
 	if((fuel_left <= LOW_FUEL_LANDING_THRESHOLD) && (state == PLANE_STATE_FLYING))
 		to_chat(chair.occupant, span_warning("Out of fuel, landing."))
 		SSshuttle.moveShuttle(id, SHUTTLE_CAS_DOCK, TRUE)
@@ -146,7 +146,7 @@
 	SSmonitor.process_human_positions()
 
 	#ifndef TESTING
-	if(SSmonitor.human_on_ground <= 5)
+	if(SSmonitor.human_on_ground <= 1)
 		to_chat(user, span_warning("The signal from the area of operations is too weak, you cannot route towards the battlefield."))
 		return
 	#endif
