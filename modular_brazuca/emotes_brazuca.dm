@@ -47,12 +47,12 @@
 	message = "Parece que aquela aula de franco atirador valeu a pena."
 	sound = 'modular_brazuca/sounds/sniper.wav'
 
-/* /datum/emote/living/carbon/human/ferido
+ /datum/emote/living/carbon/human/ferido
 	key = "ferido"
 	key_third_person = "medico"
 	message = "Pede por assistencia Médica"
-	sound =
-	*/
+	sound = 'modular_brazuca/sounds/falaferido1.wav'
+
 /datum/emote/living/carbon/human/fudido
 	key = "fudido"
 	key_third_person = "fudido"
@@ -63,7 +63,7 @@
 	key = "medico1"
 	key_third_person = "medico1"
 	message = "Te manter inteiro tá sendo desafiador."
-	sound = 'modular_brazuca/sounds/medic.wav'
+	sound = 'modular_brazuca/sounds/medico.wav'
 
 /datum/emote/living/carbon/human/medico2
 	key = "medico2"
